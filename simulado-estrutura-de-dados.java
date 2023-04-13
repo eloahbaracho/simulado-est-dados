@@ -150,4 +150,12 @@ public class StackDemo {
         System.out.println("Final Stack: "
                            + stack);
     }
+} 
+------------------------------------
+	
+Pilha pilhaAUX = new Pilha();
+while (pilhax.estavazia() == false) {
+	object info = pilhax.desempilhar();
+	pilhaaAUX.emp(info);
 }
+			
